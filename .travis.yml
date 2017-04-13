@@ -16,5 +16,5 @@ install:
   - sudo git clone https://github.com/arduino-libraries/CapacitiveSensor.git /usr/share/arduino/libraries/CapacitiveSensor
 
 script: 
-  - cd CapacitiveSensors
+  - cd CapacitiveSensor
   - ino build
