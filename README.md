@@ -1,35 +1,14 @@
 # MysteryMachine2
 
-MysteryMachine2 schematic.
+[![Create the Zensical website](https://github.com/richelbilderbeek/MysteryMachine2/actions/workflows/create_zensical_website.yaml/badge.svg?branch=master)](https://github.com/richelbilderbeek/MysteryMachine2/actions/workflows/create_zensical_website.yaml)
 
-MysteryMachine2 is a more complex variant of [MysteryMachine](https://github.com/richelbilderbeek/MysteryMachine).
+- [Go to the nicely rendered site](https://richelbilderbeek.github.io/mysterymachine2/)
 
-MysteryMachine2 is developed by (alphabetic list):
+The source of the website is in the [`docs`](docs) folder,
+with the start page at [`docs/README.md`](docs/README.md).
 
-  * Nora Migdad
-  * Richel Bilderbeek
-  * Willy Bakker
+To view the website locally, run:
 
-## 2017-07-30 build
-
-Built by Carmen IJsebaart (drilling, glueing, soldering) and Richel Bilderbeek (coordinating, drilling, glueing, soldering, testing).
-
-![MysteryMachine 2 1](Pictures/20170730_1.jpg)
-
-![MysteryMachine 2 2](Pictures/20170730_2.jpg)
-
-![MysteryMachine 2 3](Pictures/20170730_3.jpg)
-
-![MysteryMachine 2 4](Pictures/20170730_4.jpg)
-
-![MysteryMachine 2 5](Pictures/20170730_5.jpg)
-
-![MysteryMachine 2 6](Pictures/20170730_6.jpg)
-
-![MysteryMachine 2 7](Pictures/20170730_7.jpg)
-
-![MysteryMachine 2 prototype 1 (without chips)](Pictures/20170730_prototype_1.jpg)
-
-![MysteryMachine 2 prototype 2 (without chips)](Pictures/20170730_prototype_2.jpg)
-
-![MysteryMachine 2 replacement multimeter](Pictures/20170730_multimeter.jpg)
+```bash
+./scripts/deploy_zensical_website_locally.sh
+```
